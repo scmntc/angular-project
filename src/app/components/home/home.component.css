@@ -1,0 +1,14 @@
+::ng-deep .mat-form-field-label {
+    /*change color of label*/
+    color: rgb(53, 53, 53) !important;
+}
+
+::ng-deep.mat-form-field-underline {
+    /*change color of underline*/
+    background-color: lightblue!important;
+} 
+
+::ng-deep.mat-form-field-ripple {
+    /*change color of underline when focused*/
+    background-color: rgba(100, 100, 247, 0.651) !important;;
+}

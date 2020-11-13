@@ -1,6 +1,8 @@
 import { HomeComponent } from './home.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { MatInputModule } from '@angular/material/input';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -9,7 +11,9 @@ import { CommonModule } from '@angular/common';
     HomeComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    MatInputModule,
+    FormsModule
   ],
   exports: [
     HomeComponent
