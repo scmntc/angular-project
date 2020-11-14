@@ -12,3 +12,7 @@
     /*change color of underline when focused*/
     background-color: rgba(100, 100, 247, 0.651) !important;;
 }
+
+.img {
+    width: 130px;
+}

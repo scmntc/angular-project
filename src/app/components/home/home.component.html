@@ -1,8 +1,28 @@
-<mat-form-field class="example-form-field">
-    <mat-label>Usuario</mat-label>
-    <input matInput type="text" [(ngModel)]="value"/>
-</mat-form-field>
-
-<h1>
-    {{ value }}
-</h1>
+<div>
+    <mat-card>
+        <mat-card-subtitle>
+            <p>Informe o Usuário</p>
+        </mat-card-subtitle>
+        <mat-form-field>
+            <mat-label>Usuario</mat-label>
+            <input matInput type="text" [(ngModel)]="value">
+        </mat-form-field>    
+        <button mat-button color="primary" (click)="pesquisarUsuario()">Pesquisar</button>
+    </mat-card>
+    <div *ngIf="usuario">
+        <mat-card fxLayout="row" fxLayoutGap="20px">
+            <img class="img"  [src]="usuario.avatar_url"/>
+            <div fxLayout="column" fxLayoutAlign="center">
+                <p>Usuário: {{ usuario.login }}</p>
+                <p>Seguidores: {{ usuario.followers }}</p>
+                <p>Repositórios Públicos: {{ usuario.public_repos }}</p>
+            </div>
+            <div fxFlex fxLayout="column" fxLayoutAlign="center center">
+                <h4 >Repositórios:</h4>
+                <li *ngFor="let item of repositories | slice:0:4; let i=index">
+                    {{ item['name'] }}
+                </li>
+            </div>
+        </mat-card>
+    </div>
+</div>
