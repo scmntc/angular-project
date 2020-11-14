@@ -1,27 +1,18 @@
-# AngularProject
+# GitHub Profiles
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.4.
+Projeto criado seguindo as especificações da ideia disponível em: [GitHub Profile](https://github.com/florinpop17/app-ideas/blob/master/Projects/2-Intermediate/GitHub-Profiles.md), com o principio objetivo de aprender sobre a linguagem e sua syntax.
 
-## Development server
+### Tecnologias
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Foi utilizado para construção do projeto as seguintes tecnologias:
+⋅⋅* Angular 10.0.8
+..* Angular Material 10.2.7
+..* Angular Flex Layout 11.0.0
+..* API GitHub v3
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### Funcionalidades
+..* O usuário pode inserir um nome de usuário
+..* O usuário pode clicar no botão de pesquisa para recuperar informações
+..* O usuário pode ver o avatar, nome de usuário, seguidores e contagem de repositório do usuário pesquisado
+..* O usuário pode ver os 4 principais repositórios do usuário pesquisado
+..* O usuário deve receber um alerta se o nome de usuário não for válido
