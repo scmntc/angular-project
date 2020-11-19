@@ -12,7 +12,7 @@
   <a href="https://material.angular.io/">
     <img src="https://img.shields.io/badge/Angular%20Material-v10.2.7-blue">
   </a>&nbsp;
-  <a href="https://material.angular.io/">
+  <a href="https://developer.github.com/v3/">
     <img src="https://img.shields.io/badge/GitHub%20API-v3-green">
   </a>
 </p>
